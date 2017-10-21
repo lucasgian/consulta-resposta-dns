@@ -5,7 +5,7 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 
 
-public class ServerTCP
+public class DNS
 {
 
 	private static String serverName = "localhost";

@@ -5,6 +5,8 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 import javax.swing.JOptionPane;
 
+import java.net.Inet6Address;
+
 public class ClientTCP
 {
   	public static void main(String[] args) 
