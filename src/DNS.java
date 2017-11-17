@@ -34,8 +34,15 @@ public class DNS
 		    if(addressReturn.length == 1)
 		    	inputAAAA(null);
 
-		    else 
-		    	inputAAAA(addressReturn[1]);
+		    else for(int i=1; i < addressReturn.length; i++){
+		    	if(addressReturn[i].getHostAddress().length() > 14)
+		    		inputAAAA(addressReturn[i]);	
+		    	else
+		    		inputA(addressReturn[i]);
+		    }
+
+		    	
+		    
 
 
 		    inputMX();
